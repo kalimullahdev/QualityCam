@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">QualityCam</string>
+    <string name="title">Title</string>
+    <string name="intro_image">Intro Image</string>
+    <string name="description">Description</string>
+    <string name="loding">Loding...</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in_to_continue">Sign In To Continue</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="or">or</string>
+    <string name="home_page">Home Page</string>
+    <string name="skip">Skip</string>
+    <string name="logo">Logo</string>
 </resources>
