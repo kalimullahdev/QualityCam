@@ -32,9 +32,14 @@ public class IntroItemAdapter extends PagerAdapter {
         TextView title = view.findViewById(R.id.tv_title);
         TextView description = view.findViewById(R.id.tv_decription);
 
+
+
         imageView.setImageResource(data.get(position).getImage());
         title.setText(data.get(position).getTitle());
         description.setText(data.get(position).getDescription());
+
+
+
 
         container.addView(view);
         return view;

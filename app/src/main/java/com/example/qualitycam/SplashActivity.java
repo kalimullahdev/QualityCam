@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ProgressBar;
+
+import com.github.ybq.android.spinkit.sprite.Sprite;
+import com.github.ybq.android.spinkit.style.FadingCircle;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -14,6 +18,10 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        ProgressBar progressBar = (ProgressBar)findViewById(R.id.spin_kit);
+        Sprite fadingCircle = new FadingCircle();
+        progressBar.setIndeterminateDrawable(fadingCircle);
+
         handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -22,6 +30,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },2500);
+        },10500);
     }
 }

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/ed_firstName"
+        android:id="@+id/rg_firstName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
@@ -36,7 +36,7 @@
         tools:layout_editor_absoluteX="25dp"/>
 
     <EditText
-        android:id="@+id/ed_lastName"
+        android:id="@+id/rg_lastName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -48,10 +48,10 @@
         android:textColor="@color/black"
         android:textColorHint="@color/gray"
         android:textColorLink="@color/black"
-        app:layout_constraintTop_toBottomOf="@+id/ed_firstName" />
+        app:layout_constraintTop_toBottomOf="@+id/rg_firstName" />
 
     <EditText
-        android:id="@+id/ed_email"
+        android:id="@+id/rg_email"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -63,10 +63,10 @@
         android:textColor="@color/black"
         android:textColorHint="@color/gray"
         android:textColorLink="@color/black"
-        app:layout_constraintTop_toBottomOf="@+id/ed_lastName"/>
+        app:layout_constraintTop_toBottomOf="@+id/rg_lastName"/>
 
     <EditText
-        android:id="@+id/ed_password"
+        android:id="@+id/rg_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/password"
@@ -77,7 +77,7 @@
         android:fontFamily="@font/semibold"
         android:background="@drawable/ed_bg"
         android:layout_marginHorizontal="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/ed_email"
+        app:layout_constraintTop_toBottomOf="@+id/rg_email"
         android:inputType="textPassword"/>
 
     <Button
@@ -91,7 +91,7 @@
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_password" />
+        app:layout_constraintTop_toBottomOf="@+id/rg_password" />
 
 
     <TextView

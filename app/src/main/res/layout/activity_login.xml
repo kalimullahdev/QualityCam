@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_welcome" />
 
     <EditText
-        android:id="@+id/ed_email"
+        android:id="@+id/lg_email"
         android:layout_width="match_parent"
         android:layout_height="50dp"
 
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_signIn" />
 
     <EditText
-        android:id="@+id/ed_password"
+        android:id="@+id/lg_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/password"
@@ -60,7 +60,7 @@
         android:background="@drawable/ed_bg"
 
         android:layout_marginHorizontal="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/ed_email"
+        app:layout_constraintTop_toBottomOf="@+id/lg_email"
         android:inputType="textPassword"
         android:paddingStart="20dp"
         tools:ignore="RtlSymmetry" />
@@ -71,8 +71,8 @@
         android:layout_height="wrap_content"
         android:text="@string/forget_password"
         android:layout_marginTop="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/ed_password"
-        app:layout_constraintTop_toBottomOf="@+id/ed_password"
+        app:layout_constraintEnd_toEndOf="@+id/lg_email"
+        app:layout_constraintTop_toBottomOf="@+id/lg_password"
         android:fontFamily="@font/semibold"/>
 
     <Button
@@ -86,7 +86,7 @@
         android:layout_marginTop="70dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_password" />
+        app:layout_constraintTop_toBottomOf="@+id/lg_password" />
 
 
     <TextView

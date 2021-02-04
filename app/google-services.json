@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "257290998539",
+    "project_id": "qualitycam-abf3b",
+    "storage_bucket": "qualitycam-abf3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257290998539:android:d80cbc109ae181eb74880e",
+        "android_client_info": {
+          "package_name": "com.example.qualitycam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257290998539-15i31f3h8qao1fsi5jlfkimdg52scjcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN52dtXQXAoI4HTfZ5QaG-1da6ZeiPt_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257290998539-15i31f3h8qao1fsi5jlfkimdg52scjcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
