@@ -30,7 +30,21 @@ public class RegisterActivity extends AppCompatActivity {
 
     EditText rg_email, rg_password, rg_firstName, rg_lastName;
     private FirebaseAuth mAuth;
+    FirebaseUser firebaseUser;
 
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        mAuth = FirebaseAuth.getInstance();
+        firebaseUser = mAuth.getCurrentUser();
+
+        if (firebaseUser != null) {
+            Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

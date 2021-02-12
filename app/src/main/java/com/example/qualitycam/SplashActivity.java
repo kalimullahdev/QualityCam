@@ -9,10 +9,13 @@ import android.widget.ProgressBar;
 
 import com.github.ybq.android.spinkit.sprite.Sprite;
 import com.github.ybq.android.spinkit.style.FadingCircle;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SplashActivity extends AppCompatActivity {
 
     Handler handler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,10 +25,12 @@ public class SplashActivity extends AppCompatActivity {
         Sprite fadingCircle = new FadingCircle();
         progressBar.setIndeterminateDrawable(fadingCircle);
 
+
         handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+
                 Intent intent=new Intent(SplashActivity.this,RegisterActivity.class);
                 startActivity(intent);
                 finish();

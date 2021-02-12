@@ -6,24 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".RatingFragment">
 
-
     <RatingBar
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="5"
-        android:rating="4.4"
+        android:rating="2.3"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
+
         android:id="@+id/tv_rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bold"
-        android:text="4.4"
+        android:text="@string/_4_4"
         android:textSize="30sp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
